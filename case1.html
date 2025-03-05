@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CASE1</title>
+    <style>
+
+        body>div.main>div{
+            width: 200px;
+            height: 200px;
+            background-color: #fff3f0;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+            position: absolute;
+            border-radius: 50%;
+        }
+        body>div.main>div>div{
+            width: 50px;
+            height: 50px;
+            background-color: #fb3030;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>div.main:last-child{
+            width: 50px;
+            height: 50px;
+            background-color: #fb3030;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+        }
+        body>div.main{
+            width: 50vw;
+            height: 50vh;
+            aspect-ratio: 1/1;
+            position: absolute;
+        }
+        body>div.main:nth-child(1){
+            background-color: #00beff;
+            top: 0px;
+            left: 0px;
+        }
+        body>div.main:nth-child(2){
+            background-color: #000000;
+            top: 0px;
+            right: 0px;
+        }
+        body>div.main:nth-child(3){
+            background-color: #ff4800;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        body>div.main:nth-child(4){
+            background-color: #73afdc;
+            bottom: 0px;
+            right: 0px;
+        }
+        body>div:nth-child(5){
+            width: 15vw;
+            aspect-ratio: 1/1;
+            background-color: #f1ecec;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+        }
+        body>div:nth-child(5)>div{
+            width: 4vw;
+            aspect-ratio: 1/1;
+            background-color: #e61717;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        body>.conner{
+            width: 10vw;
+            aspect-ratio: 1/1;
+            background: indigo;
+            position: absolute;
+        }
+        body>div:nth-child(6){
+            top:0 ;
+            left:0;
+            border-bottom-right-radius: 100%;
+        }
+        body>div:nth-child(7){
+            bottom: 0;
+            left:0;
+            border-top-right-radius: 100%;
+        }
+        body>div:nth-child(8){
+            top:0;
+            right: 0;
+            border-bottom-left-radius: 100%;
+
+        }
+        body>div:nth-child(9){
+            bottom:0;
+            right: 0;
+            border-top-left-radius: 100%;
+
+        }
+        /*Body Div godak tiyenakota Class dala alla ganna bh */
+        body>div:nth-child(10){
+            right: 0;
+            top: 0;
+            left: 0;
+            margin: auto;
+            border-radius:0 0 50% 50% ;
+            top: -6vw;
+        }
+        body>div:nth-child(11){
+            right: 0;
+            left: 0;
+            bottom: 0;
+
+            margin: auto;
+            border-radius: 50% 50% 0 0;
+            bottom: -6vw;
+        }
+        body{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main"><div><div></div></div></div>
+<div class="main"><div><div></div></div></div>
+<div class="main"><div><div></div></div></div>
+<div class="main"><div><div></div></div></div>
+
+<div ><div></div></div>
+<div class="conner"></div>
+<div class="conner"></div>
+<div class="conner"></div>
+<div class="conner"></div>
+<div class="conner"></div>
+<div class="conner"></div>
+
+</body>
+</html>
